@@ -43,9 +43,17 @@ Work items are organized into milestones, which represent a specific version of 
 - Once your pull request has been reviewed and approved, it will be merged into the develop branch.
 
 ## Testing
-The unit tests can be executed by reopening the project in the provided dev container & running 'mvn test'. Additionally, you can test your changes by running the plugin on a Spigot server.
+1. Ensure docker is installed.
+2. Reopen the project in the provided dev container with the following commands:
+```
+sudo cd ./.devcontainer
+sudo ./start_dev_container
+```
+3. Run `mvn test`.
 
 ### Running a Spigot server with Docker
+Additionally, you can test your changes by running the plugin on a Spigot server.
+
 If you don't have Docker installed, you can download it [here](https://www.docker.com/products/docker-desktop).
 
 To run a Spigot server with Docker, you can use the following command:

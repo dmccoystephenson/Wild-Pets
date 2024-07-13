@@ -30,7 +30,13 @@ Please fill out a bug report [here](https://github.com/dmccoystephenson/Wild-Pet
 - [Contributing.md](https://github.com/dmccoystephenson/Medieval-Factions/blob/master/CONTRIBUTING.md)
 
 ## Testing
-The unit tests can be executed by reopening the project in the provided dev container & running `mvn test`.
+1. Ensure docker is installed.
+2. Reopen the project in the provided dev container with the following commands:
+```
+sudo cd ./.devcontainer
+sudo ./start_dev_container
+```
+3. Run `mvn test`.
 
 ## Authors and acknowledgement
 Name | Main Contributions
